@@ -18,13 +18,8 @@ for iter = 1:num_iters
     %
 
 
-
-
-
-
-
-
-
+     Jtheta = (1/m) * (X'*X*theta - X'*y);
+     theta = theta - alpha * Jtheta;
 
 
     % ============================================================
